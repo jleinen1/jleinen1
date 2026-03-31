@@ -114,7 +114,7 @@ main {
   letter-spacing: 0.08em;
   font-size: 3rem;
   margin: 0 0 0.75rem;
-  color: var(--accent-dark);
+  color: #000000;
 }
 
 .hero-text-card p {
@@ -130,7 +130,7 @@ main {
 
 
 
-/* products */
+/* movie cards */
 
 .products {
   padding: 3rem 0 2rem;
@@ -143,7 +143,7 @@ main {
   letter-spacing: 0.1em;
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: var(--accent-dark);
+  color: #000000;
 }
 
 .product-card {
@@ -175,7 +175,7 @@ main {
   letter-spacing: 0.08em;
   font-size: 1.1rem;
   margin: 0 0 0.5rem;
-  color: var(--accent-dark);
+  color: #000000;
 }
 
 .product-text p {
@@ -189,115 +189,6 @@ main {
   object-fit: cover;
 }
 
-/* table */
-
-.table-wrapper {
-  overflow-x: auto;
-  margin-bottom: 2rem;
-}
-
-/* center the table itself */
-#data-table {
-  border-collapse: collapse;
-  min-width: 400px;
-  margin: 0 auto;
-}
-
-#data-table th,
-#data-table td {
-  padding: 0.75rem 1rem;
-  text-align: left;
-  font-size: 0.9rem;
-}
-
-#data-table thead {
-  background-color: #FFB6C1;
-  color: #222222;
-}
-
-#data-table tbody tr:hover {
-  background-color: rgba(209, 189, 161, 0.35);
-}
-
-/* contact form */
-.mailing-list {
-  padding: 3rem 0;
-}
-
-.mailing-bg {
-  background-image: url("https://snipboard.io/x0Xqb6.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 320px;
-  display: flex;
-  align-items: center;   
-  justify-content: center;
-}
-
-
-.mailing-overlay {
-  background-color: rgba(253, 245, 230, 0.9);
-  padding: 2rem 1.5rem;
-  max-width: 480px;
-  width: 100%;
-}
-
-.mailing-overlay h2 {
-  font-family: "Bebas Neue", Arial, sans-serif;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.mailing-form {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.maling-form label {
-  font-size: .85rem;  
-}
-
-.mailing-form input,
-.mailing-form textarea {
-  padding: 0.5rem 0.75rem;
-  font-size: 1rem;
-  border: 1px solid #d1bda1;
-  background-color: var(--lace);
-  font-family: "Open Sans", sans-serif;
-}
-
-
-
-/* focus state */
-
-.mailing-form input:focus,
-.mailing-form textarea:focus {
-  outline: 3px solid var(--accent-dark);
-}
-
-/* invalid state */
-
-mailing-form input:invalid
-mailing-form textarea:invalid {
-  border-color: #c0392b;
-}
-
-/* primary button */
-.primary-btn {
-  margin-top: 0.4rem;
-  padding: 0.6rem 1.2rem;
-  background-color: var(--nav-blue);
-  color: var(--lace);
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.08rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
 
 /* footer */
 
