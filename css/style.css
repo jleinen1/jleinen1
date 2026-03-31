@@ -36,7 +36,7 @@ main {
 /* top nav */
 
 .site-header {
-  background-color: #485B97;
+  background-color: #7afff0;
   color: #000000;
   position: fixed;
   top: 0;
@@ -86,7 +86,7 @@ main {
 /* hero */
 
 .hero {
-  background-color: #485B97;
+  background-color: ##7afff0;
   margin-top: 0;
   padding: 2rem 0 2.5rem;
   min-height: 100vh;
