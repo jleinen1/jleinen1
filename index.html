@@ -1,132 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Justine's Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Site</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- fonts -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- font: bebas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poller+One&family=Special+Gothic:wght@400..700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="styles/styles.css" />
-
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poller+One&family=Special+Gothic:wght@400..700&display=swap" rel="stylesheet">
+  
+    <!-- font: open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poller+One&family=Special+Gothic:wght@400..700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css"/>
 </head>
-
 <body>
-
   <!-- top nav bar -->
-  <header id="header" class="site-header">
-    <div class="nav-bar">
-      <nav id="nav-bar">
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#home">home</a></li>
-          <li><a class="nav-link" href="#about">about</a></li>
-          <li><a class="nav-link" href="#gallery">gallery</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  
-   <section id="home" class="hero">
-  <div class="hero-content">
-    <h1>Everything Everywhere All At Once</h1>
+ <header id="header" class="site-header">
+  <div class="nav-bar">
+    <nav id="nav-bar">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#hero">Home</a></li>
+        <li><a class="nav-link" href="#features">The Story</a></li>
+      </ul>
+    </nav>
   </div>
-</section>
+</header>
+        
 
-  
   <main>
-<!-- about me section -->
-<section id="about" class="about">
-  
+    <!-- hero -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text-card">
+          <h1>Everything Everywhere All At Once</h1>
+          <p>PLACEHOLDER</p>
+          <button class="primary-btn">Shop</button>
+        </div>
 
-  <!-- about me flex container -->
-  <div class="about-inner">
+        <div class="hero-image">
+          <!-- hero img -->
+          <img src="PLACEHOLDER.jpg" />
+        </div>
+      </div>
+    </section>
+   
 
-    <!-- about image -->
-    <div class="about-image">
-      <img src="alphaverse.jpeg" />
-    </div>
+    <!-- feat cards -->
+    <section id="features" class="products">
+      <h2 class="section-title">Products</h2>
 
-    <!-- about text -->
-    <div class="about-text">
-      <h2>About Me</h2>
-      <p>
-When an interdimensional rupture unravels reality, an unlikely hero must channel her newfound powers to fight bizarre and bewildering dangers from the multiverse as the fate of the world hangs in the balance.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-    <!-- projects -->
-    <section id="projects" class="gallery">
-      <h2 class="section-title">gallery</h2>
-
-       <!-- project card 1 -->
+      <!-- feat card 1 -->
       <article class="product-card">
         <div class="product-text">
-          <h3>A Seemingly Normal Family</h3>
-          <p>A single-page recipe site focused on hierarchy, readability, and semantic HTML, view it <a href="week-2/recipe.html">here</a>.</p>
+          <h3>Thorn & Thread Essential Tee</h3>
+          <p>Built for the everyday wearer who wants comfort without losing edge.</p>
         </div>
         <div class="product-image">
-          <img src="family.webp.jpg" />
+          <img src="https://snipboard.io/fqS4WQ.jpg" alt="Back of moth hoodie"/>
         </div>
       </article>
 
-     <!-- project card 2 -->
-<article class="product-card">
-  <div class="product-text">
-    <h3>The Tribute Site</h3>
-    <p>A tribute page exploring layout, rhythm, and multi-section structure, view it <a href="week-4/bonnie.html">here</a>.</p>
-  </div>
-  <div class="product-image">
-    <img src="https://snipboard.io/dNFOHJ.jpg" alt="Screenshot of the tribute site project" />
-  </div>
-</article>
+      <!-- feat card 2 -->
+      <article class="product-card">
+        <div class="product-image">
+          <img src="https://snipboard.io/oAjKU6.jpg" alt="Model wearing Steel &amp; Petal hoodie"/>
+        </div>
+        <div class="product-text">
+          <h3>Steel &amp; Petal Hoodie</h3>
+          <p>Captures Thorn &amp; Thread's signature duality: warmth on the inside, strength on the outside.</p>
+        </div>
+      </article>
 
-     <!-- project card 3 -->
-<article class="product-card">
-  <div class="product-text">
-    <h3>The Field Guide</h3>
-    <p>A tribute page exploring layout, rhythm, and multi-section structure, view it 
-      <a href="week-7/tech-doc-site/tech-doc.html">here</a>.
-    </p>
-  </div>
-  <div class="product-image">
-    <img src="https://snipboard.io/BA2btm.jpg" alt="Screenshot of the tribute site project" />
-  </div>
-</article>
-
-<!-- project card 4 -->
-<article class="product-card">
-  <div class="product-text">
-    <h3>The Landing Page</h3>
-    <p>A tribute page exploring layout, rhythm, and multi-section structure, view it 
-      <a href="week-9/product-landing.html">here</a>.
-    </p>
-  </div>
-  <div class="product-image">
-    <img src="https://snipboard.io/c63L54.jpg" alt="Screenshot of the tribute site project" />
-  </div>
-</article>
-
-      <!-- project card 5 -->
-      <article class="product-card hidden-project">
-        <h3>Sample Site-Web dev</h3>
-          <p>sample swoop website for web dev
-          <a href="week-x/swoop.html">here</a></p>.
-
-
-    <section>
-      <h3>Read the reflection <a href="reflection/reflection.html">here</a></h3>
+      <!-- feat card 3 -->
+      <article class="product-card">
+        <div class="product-text">
+          <h3>Thorn &amp; Lace Cargo Pants</h3>
+          <p>Designed for movement, expression, and durability.</p>
+        </div>
+        <div class="product-image">
+          <img src="https://snipboard.io/4mHP7d.jpg" alt="Model wearing Thorn &amp; Lace cargo pants"/>
+        </div>
+      </article>
     </section>
-  </main>
-<footer class="site-footer">
-  <p>Thanks for visiting my little corner of the internet. © 2025 Justine Leinen</p>
-</footer>
 
+
+
+  <!-- footer -->
+  <footer class="site-footer">
+    <p>Everything Everywhere All At Once</p>
+  </div>
+</footer>
 
 </body>
 </html>
