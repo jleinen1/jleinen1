@@ -89,9 +89,9 @@ main {
   background-color: var(--lace);
   margin-top: 0;
   padding: 2rem 0 2.5rem;
-  min-height: 100vh;      /* fills at least one full screen height */
+  min-height: 100vh;
   display: flex;
-  align-items: center;    /* vertically center the grid inside */
+  align-items: center; 
 }
 
 .hero-inner {
