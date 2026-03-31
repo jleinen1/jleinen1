@@ -15,7 +15,7 @@ body {
   padding: 0;
   font-family: "Open Sans",  sans-serif;
   background-color: var(--lace);
-  color: var(--text-dark);
+  color: #000000;
   line-height: 1.5;
 }
 
