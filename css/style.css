@@ -1,10 +1,10 @@
 /* base styles */
 
 :root {
-  --nav-blue: #3d4c82;
+  --nav-blue: #000000;
   --text-dark: #485B97;
   --accent-dark: #485B97;
-  --lace: #fdf5e6;
+  --lace: #00FFDE;
   --white: #ffffff;
   --max-width: 1100px;
 }
