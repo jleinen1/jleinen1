@@ -36,8 +36,8 @@ main {
 /* top nav */
 
 .site-header {
-  background-color: #7afff0;
-  color: #000000;
+  background-color:#000000;
+  color: #7afff0;
   position: fixed;
   top: 0;
   left: 0;
@@ -205,17 +205,6 @@ main {
   text-decoration: underline;
 }
 
-/* keyframe */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* media query */
 
