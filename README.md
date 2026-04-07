@@ -1,4 +1,3 @@
-# Justine Leinen
 <div align="center">
  
 # hi, i'm justine! 👾✨
