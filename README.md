@@ -14,9 +14,9 @@
 const justine = {
   school:     "Eastern Washington University 🦅",
   major:      "Design",
-  passions:   ["UX Design", "Web Dev", "Arts & Crafts", "Cinema 🎞️"],
-  currently:  "Building cool things on the internet ✨",
-  funFact:    "I can make a website AND a collage in the same afternoon 🖼️"
+  passions:   ["UX Design", "Web Dev", "Arts & Crafts", "Cinema"],
+  currently:  "Building cool things on the internet",
+  funFact:    "I can make a website AND a collage in the same afternoon"
 };
 ```
  
