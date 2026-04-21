@@ -4,7 +4,7 @@
  
 ### designer · coder · creative human
  
-*design major @ EWU · obsessed with UX, code, arts & crafts, and great movies*
+*design major @ EWU · fan of UX, code, arts & crafts, and great movies*
 
 </div>
  
